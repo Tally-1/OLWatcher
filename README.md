@@ -70,11 +70,17 @@ once you have a list of steam-ids, log in to the olympus stats page, and check t
 finally, make an array looking something like this:
 
 [
+  
   ["76561198093436130", "Justi"],
+  
   ["76561198079661896", "iPod 6SiXS6XSiX6"],
+  
   ["76561198075431692", "dpi* X"],
+  
   ["76561198272038173", "DWSHADOW"],
+  
   ["76561198992458705", "Need Help?"]
+  
 ]
 
 store that array into a file called "nameId.json". 
