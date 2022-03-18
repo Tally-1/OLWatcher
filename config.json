@@ -1,0 +1,9 @@
+{
+    "prefix":"!",
+    "token":"INSERT TOKEN HERE",
+    "owner":"1234567890", 
+    "imgChannel":"1234567890",
+    "port":3211,
+    "iconURL": "https://avatars.akamai.steamstatic.com/3d14747b33b49b80a3d471d1ca8255dcf280c1f5_full.jpg",
+    "botLink": "https://discord.com/api/oauth2/authorize?client_id=923548666717941811&permissions=311385238528&scope=bot"
+}

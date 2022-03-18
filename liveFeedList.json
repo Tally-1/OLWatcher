@@ -1,0 +1,32 @@
+[
+  {
+    "initiatorID": "540056081917804565",
+    "liveMessageID": "929253753096384542",
+    "channelID": "922902044338180196",
+    "DM": false,
+    "contentType": "status",
+    "timeStarted": 1641621758508,
+    "index": -2,
+    "discriminator": "status540056081917804565922902044338180196"
+  },
+  {
+    "initiatorID": "540056081917804565",
+    "liveMessageID": "929256217971413022",
+    "channelID": "924918239870476329",
+    "DM": false,
+    "contentType": "status",
+    "timeStarted": 1641622346182,
+    "index": -1,
+    "discriminator": "status540056081917804565924918239870476329"
+  },
+  {
+    "initiatorID": "540056081917804565",
+    "liveMessageID": "938038067623788555",
+    "channelID": "923762732015181894",
+    "DM": false,
+    "contentType": "status",
+    "timeStarted": 1643716103954,
+    "index": 2,
+    "discriminator": "status540056081917804565923762732015181894"
+  }
+]
