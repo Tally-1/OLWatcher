@@ -39,11 +39,13 @@ If a player changes his name, his previous name will be stored in the names arra
 example of player-object:
 
 {
+    
     "id": 118938327,
     "names": ["[Medic] Sir Valentine"],
     "currentName": "[Medic] Sir Valentine",
     "steamId": [],
     "steamIdReviewed": false
+    
   }
 
 
