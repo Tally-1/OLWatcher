@@ -4,9 +4,11 @@ A Discord-bot watching Olympus server 1
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SETUP:
+
 1 go to the config.json file and enter the correct values:
 
 {
+    
     "prefix":"!", 
     "token":"INSERT TOKEN HERE",
     "owner":"1234567890", 
@@ -14,6 +16,7 @@ SETUP:
     "port":3211,
     "iconURL": "https://avatars.akamai.steamstatic.com/3d14747b33b49b80a3d471d1ca8255dcf280c1f5_full.jpg",
     "botLink": "https://discord.com/api/oauth2/authorize?client_id=923548666717941811&permissions=311385238528&scope=bot"
+    
 }
 
 prefix:     the characters you want to have to initiate a command
