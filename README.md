@@ -86,6 +86,7 @@ And the bot will match the id's to players with those names. (there will be some
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 USER COMMANDS:
+
 {
 
 !Link:                sends a link to the bot.
@@ -109,13 +110,9 @@ USER COMMANDS:
 !GetPlayerDB:    Sends a DM containing the playerDB.json file
     
     !FileUpdate:     Takes whatever .json file you sent and stores it, in the case of files named "nameId.json" it will also link all steam-ids inside it to your player-db.
-    
     !Restart:        Shuts down the bot and starts it as a background-process.
-    
     !ShutDown:       Shuts down the bot (useful if it is running in the background).
-    
     !Crash:          Crashes the bot (currently disabeled, used to test crash-events).
-    
     !Ping:           Responds with Pong (quick way of testing if the bot is running).
     
 }
