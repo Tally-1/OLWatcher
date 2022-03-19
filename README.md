@@ -94,12 +94,12 @@ USER COMMANDS:
 
 {
 
-!Link:                sends a link to the bot.
-!PlayerCount:         Returns the amount of players online at the moment.
-!PlayerCountLive:     Returns the amount of players online and updates the message.
-!Status:              Sends a embed containing a list of players that joined, and left including whatever data could be found on said players.
-!StatusLive:          Same embed as above, but it updates itself every 2-10 minutes depending on how many players are online.
-!Search <playername>: Searches the database for matching names (currently you need to be exact when searching, missing a letter might in some cases cause the bot to not find the requested entry).
+    !Link:                sends a link to the bot.
+    !PlayerCount:         Returns the amount of players online at the moment.
+    !PlayerCountLive:     Returns the amount of players online and updates the message.
+    !Status:              Sends a embed containing a list of players that joined, and left including whatever data could be found on said players.
+    !StatusLive:          Same embed as above, but it updates itself every 2-10 minutes depending on how many players are online.
+    !Search <playername>: Searches the database for matching names (currently you need to be exact when searching, missing a letter might in some cases cause the bot to not find the requested entry).
     
    } 
 
