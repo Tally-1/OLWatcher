@@ -19,13 +19,19 @@ SETUP:
     
     }
 
-**prefix:**     the characters you want to have to initiate a command
-token:      the tokem you retrieve at https://discord.com/developers/applications/
+**prefix:**     the characters you want to have to initiate a command.
+
+token:      the tokem you retrieve at https://discord.com/developers/applications/ .
+
 owner:      your discord-id (right-click on your avatar and choose "copy id").
-imgChannel: A channel-id, this channel will be used to post the image of the graph that is used in the status-embed (right-click on a channel and copy its id)
+
+imgChannel: A channel-id, this channel will be used to post the image of the graph that is used in the status-embed (right-click on a channel and copy its id).
+
 port:       choose any port, the default will work unless you already have a node.js server running on it (currently only there with the purpose of hindering multiple 
              instances of the bot running at the same time. (You may shut down the bot using the command !shutdown).
-iconURL:    URL adress to a image you wish the bot to use in its embeds
+             
+iconURL:    URL adress to a image you wish the bot to use in its embeds.
+
 botLink     link to your bot.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
