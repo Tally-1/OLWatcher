@@ -68,6 +68,8 @@ Copy their steam-id from the URL or use the developer tools.
 once you have a list of steam-ids, log in to the olympus stats page, and check them one by one copying each name.
 
 finally, make an array looking something like this:
+
+
 {
 [
   ["76561198093436130", "Justi"],
@@ -77,6 +79,8 @@ finally, make an array looking something like this:
   ["76561198992458705", "Need Help?"]
 ]
 }
+
+
 store that array into a file called "nameId.json". 
 
 Send that file to the bot using the command: !FileUpdate      (do not forget to attach the file to the message).
