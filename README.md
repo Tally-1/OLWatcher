@@ -87,9 +87,9 @@ finally, make an array looking something like this:
 
 
 
-store that array into a file called "nameId.json". 
+store that array into a file called ***"nameId.json"***. 
 
-Send that file to the bot using the command: !FileUpdate      (do not forget to attach the file to the message).
+Send that file to the bot using the command: ***!FileUpdate***      (do not forget to attach the file to the message, filename is case-sensitive).
 
 And the bot will match the id's to players with those names. (there will be some errors here so some manual review is needed)
 
