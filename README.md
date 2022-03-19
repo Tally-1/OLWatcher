@@ -71,13 +71,13 @@ finally, make an array looking something like this:
 
 {
 
-[
+    [
         ["76561198093436130", "Justi"],
         ["76561198079661896", "iPod 6SiXS6XSiX6"],
         ["76561198075431692", "dpi* X"],
         ["76561198272038173", "DWSHADOW"],
         ["76561198992458705", "Need Help?"]
-]
+    ]
 
 }
 
@@ -107,8 +107,8 @@ USER COMMANDS:
  
  ADMIN COMMANDS:
 {
-!GetPlayerDB:    Sends a DM containing the playerDB.json file
-    
+
+    !GetPlayerDB:    Sends a DM containing the playerDB.json file
     !FileUpdate:     Takes whatever .json file you sent and stores it, in the case of files named "nameId.json" it will also link all steam-ids inside it to your player-db.
     !Restart:        Shuts down the bot and starts it as a background-process.
     !ShutDown:       Shuts down the bot (useful if it is running in the background).
