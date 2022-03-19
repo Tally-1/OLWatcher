@@ -68,6 +68,7 @@ Copy their steam-id from the URL or use the developer tools.
 once you have a list of steam-ids, log in to the olympus stats page, and check them one by one copying each name.
 
 finally, make an array looking something like this:
+
 {
 
 [
