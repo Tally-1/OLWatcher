@@ -7,7 +7,7 @@ SETUP:
 
 1 go to the config.json file and enter the correct values:
 
-{
+    {
     
     "prefix":"!", 
     "token":"INSERT TOKEN HERE",
@@ -17,9 +17,9 @@ SETUP:
     "iconURL": "https://avatars.akamai.steamstatic.com/3d14747b33b49b80a3d471d1ca8255dcf280c1f5_full.jpg",
     "botLink": "https://discord.com/api/oauth2/authorize?client_id=923548666717941811&permissions=311385238528&scope=bot"
     
-}
+    }
 
-prefix:     the characters you want to have to initiate a command
+**prefix:**     the characters you want to have to initiate a command
 token:      the tokem you retrieve at https://discord.com/developers/applications/
 owner:      your discord-id (right-click on your avatar and choose "copy id").
 imgChannel: A channel-id, this channel will be used to post the image of the graph that is used in the status-embed (right-click on a channel and copy its id)
@@ -38,7 +38,7 @@ If a player changes his name, his previous name will be stored in the names arra
 
 example of player-object:
 
-{
+    {
     
     "id": 118938327,
     "names": ["[Medic] Sir Valentine"],
@@ -46,7 +46,7 @@ example of player-object:
     "steamId": [],
     "steamIdReviewed": false
     
-  }
+    }
 
 
 To back up your player-dataBase use the command !getPlayerDB. (a .json file will be dm'd to you).
@@ -69,7 +69,7 @@ once you have a list of steam-ids, log in to the olympus stats page, and check t
 
 finally, make an array looking something like this:
 
-{
+
 
     [
         ["76561198093436130", "Justi"],
@@ -79,7 +79,7 @@ finally, make an array looking something like this:
         ["76561198992458705", "Need Help?"]
     ]
 
-}
+
 
 
 store that array into a file called "nameId.json". 
@@ -92,7 +92,7 @@ And the bot will match the id's to players with those names. (there will be some
 
 USER COMMANDS:
 
-{
+
 
     !Link:                sends a link to the bot.
     !PlayerCount:         Returns the amount of players online at the moment.
@@ -101,12 +101,12 @@ USER COMMANDS:
     !StatusLive:          Same embed as above, but it updates itself every 2-10 minutes depending on how many players are online.
     !Search <playername>: Searches the database for matching names (currently you need to be exact when searching, missing a letter might in some cases cause the bot to not find the requested entry).
     
-   } 
+   
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
  
  ADMIN COMMANDS:
-{
+
 
     !GetPlayerDB:    Sends a DM containing the playerDB.json file
     !FileUpdate:     Takes whatever .json file you sent and stores it, in the case of files named "nameId.json" it will also link all steam-ids inside it to your player-db.
@@ -115,7 +115,7 @@ USER COMMANDS:
     !Crash:          Crashes the bot (currently disabeled, used to test crash-events).
     !Ping:           Responds with Pong (quick way of testing if the bot is running).
     
-}
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 OTHER NOTES:
