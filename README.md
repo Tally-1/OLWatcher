@@ -3,7 +3,7 @@ A Discord-bot watching Olympus server 1
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SETUP:
+###SETUP:
 
 1 go to the config.json file and enter the correct values:
 
@@ -35,7 +35,7 @@ SETUP:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-DATABASE MANAGEMENT:
+###DATABASE MANAGEMENT:
 
 The bot will automatically scrape all current players found on battlemetrics and store them in the playerDB.json file.
 Each player is given a unique id, based on the battlemetrics web-page.
@@ -64,7 +64,7 @@ this will also sync the steamIds you sent to players with matching names. (!Warn
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-MATCHING STEAM ID'S TO PLAYERS:
+###MATCHING STEAM ID'S TO PLAYERS:
 
 After finishing a relaxing session of quarreling with squeakers, trannies and drug-addicts on Olympus, go to your steam page (using a web-browser), and 
 choose "recently played with". There you will find a list of all the players that were on the same server as you.
@@ -95,7 +95,7 @@ And the bot will match the id's to players with those names. (there will be some
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-USER COMMANDS:
+###USER COMMANDS:
 
 
 
@@ -110,7 +110,7 @@ USER COMMANDS:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
  
- ADMIN COMMANDS:
+ ###ADMIN COMMANDS:
 
 
     !GetPlayerDB:    Sends a DM containing the playerDB.json file
@@ -123,7 +123,7 @@ USER COMMANDS:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-OTHER NOTES:
+###OTHER NOTES:
 
 If the bot crashes, it will restart as a back-ground process, So if you see that the shell is not running, send a command (like !ping) to the bot to make sure the bot
 Is actually down, if it is still running in the background send the !shutdown command to take it down. (or leave it as is if you do not mind not seeing the console).
