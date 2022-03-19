@@ -4,7 +4,7 @@ module.exports = {
     name: "getPlayerField",
     description: "Retrieves title and subtext for embed, based of a playerObject",
     execute(client, player, emb3d){
-
+        player = client.functions.get("scrapePlayer").execute(player);
         const getSecondary = function(player){
             const fs = require("fs");
             const allPlayers = JSON.parse(fs.readFileSync(`./functions/data/playerDB.json`));
@@ -36,6 +36,7 @@ module.exports = {
         let   intelFound    = false;
         let title   = "\n**" + pName + " ** \u200b";
         let subtext = "\n";
+        
 
         if(emb3d.titleName){
             title   = "---------------------------------------------------------------"
